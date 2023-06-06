@@ -1,0 +1,45 @@
+/** ************* COLORS ************** **/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+// RED ---------------------
+$mainRed: #B7181D;
+$altRed: #921115;
+
+// Blue ---------------------
+$mainBlue: #1F305B;
+$altBlue: #162A5F;
+
+// B&W ---------------------
+$whiteColor: #ffffff;
+$blackColor: #080E1D;
+
+// Gray ---------------------
+$lightGrayColor: #eaeaf8;
+$mediumGrayColor: #8E90AE;
+
+// sized ---------------------
+$s-4: 4px;
+$s-8: 8px;
+$s-16: 16px;
+$s-24: 24px;
+$s-32: 32px;
+$s-64: 64px;
+
+// Border-radius -----------------
+$br: $s-8;
+
+// breack point -----------------
+
+$Large-bp: 1440px;
+$Medium-bp: 768px;
+$small-bp: 480px;
+
+// breack point -----------------
+
+$font : Poppins,
+sans-serif;
+
+// reset ---------------------------
+
+$null: 0;

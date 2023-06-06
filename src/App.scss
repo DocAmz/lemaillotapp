@@ -1,0 +1,11 @@
+@import './assets/styles/abstracts/variables';
+@import './assets/styles/typography';
+@import './assets/styles/button';
+
+
+.App {
+  color: $blackColor;
+  background: $mainBlue;
+  height: 100vh;
+  overflow: hidden;
+}

@@ -1,0 +1,47 @@
+.btn {
+    font-family: $font;
+    border-radius: $br;
+    padding: .6rem 1rem;
+    border: none;
+    margin: 0;
+    background: transparent;
+    width: auto;
+    overflow: visible;
+    color: inherit;
+    font: inherit;
+    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+    line-height: normal;
+    text-align: inherit;
+    outline: none;
+    cursor: pointer;
+
+    /* Corrects font smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none;
+
+    transition: all 0.4s ease-out;
+
+    &::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+
+    &-main {
+        color: $whiteColor;
+        background: $mainRed;
+
+        &:hover {
+            background: $altRed;
+        }
+    }
+
+    &-alt {
+        color: $mainRed;
+        background: $whiteColor;
+
+        &:hover {
+            background: $lightGrayColor;
+        }
+    }
+}
