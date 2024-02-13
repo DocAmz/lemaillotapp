@@ -1,10 +1,3 @@
-# PROJET VIENCHERCHERLEMAILLOT
-
-
-Plateforme d'activation spécialement conçue pour l’occasion, dont l’URL est
-_www.vienschercherlemaillot.fr_, permettra à tout un chacun de commencer à participer.
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
